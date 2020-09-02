@@ -1,0 +1,77 @@
+.header-block {
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 200px;
+  box-sizing: border-box;
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    &__left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      &__p1 {
+        color: $main-color;
+        font-size: 20px;
+        font-weight: bold;
+        &__span {
+          color: $oring;
+        }
+      }
+      &__h2 {
+        font-size: 40px;
+        color: $main-color;
+        margin: 0;
+      }
+      &__btn-block {
+        margin-top: 20px;
+        &__btn2,
+        &__btn1 {
+          color: white;
+          font-size: 14px;
+          font-weight: bold;
+          text-decoration: none;
+          padding: 8px 26px;
+          border-radius: 20px;
+          box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+          transition: all 0.2s;
+        }
+        &__btn1 {
+          background: $main-color;
+          border: 1px solid $main-color;
+        }
+        &__btn2 {
+          background: $oring;
+          margin-left: 20px;
+          border: 1px solid $oring;
+        }
+        &__btn2:hover,
+        &__btn1:hover {
+          background: none;
+          box-shadow: none;
+        }
+        &__btn1:hover {
+          color: $main-color;
+        }
+        &__btn2:hover {
+          color: $oring;
+        }
+      }
+    }
+    &__right {
+      &__img-box {
+        height: 320px;
+        width: 320px;
+        background: url('./assets/img/profile.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+      }
+    }
+  }
+}

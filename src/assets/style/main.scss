@@ -1,0 +1,13 @@
+@import './variables.scss';
+@import './pages/home.scss';
+@import './nav-bar.scss';
+@import './pages/header-component.scss';
+@import './pages/about.scss';
+
+html, body {
+  font-family: sans-serif;
+  margin:0;
+  padding:0;
+  color: gray;
+  scroll-behavior: smooth;
+  }
