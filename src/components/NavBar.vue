@@ -21,8 +21,9 @@ export default {
         { title: 'About Us', url: '#about' },
         { title: 'Services', url: '#services' },
         { title: 'Resume', url: '#resume' },
-        { title: 'Portfolio', url: '/' },
-        { title: 'Pricing', url: '/' }
+        { title: 'Portfolio', url: '#portfolio' },
+        { title: 'Pricing', url: '#pricing' },
+        { title: 'Contact Us', url: '#contact' }
       ]
     }
   },

@@ -6,6 +6,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media screen and (max-width: 540px){
+    padding: 60px 20px 0;
+    height: auto;
+  }
   &__title {
     color: $main-color;
     margin: 0;

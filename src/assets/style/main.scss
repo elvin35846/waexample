@@ -5,6 +5,9 @@
 @import './pages/about.scss';
 @import './pages/services.scss';
 @import './pages/resume.scss';
+@import './pages/contact.scss';
+@import './pages/pricing.scss';
+@import './pages/portfolio.scss';
 
 html, body {
   font-family: sans-serif;
@@ -12,4 +15,18 @@ html, body {
   padding:0;
   color: gray;
   scroll-behavior: smooth;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
   }

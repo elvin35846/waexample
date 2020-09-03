@@ -1,0 +1,82 @@
+.portfolio-block {
+  width: 100%;
+  height: 100vh;
+  padding: 100px 200px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (max-width: 540px){
+    padding: 60px 20px 0;
+    height: auto;
+  }
+  &__title {
+    color: $main-color;
+    margin: 0;
+    font-size: 40px;
+  }
+  &__p1 {
+    color: $main-color;
+  }
+  &__line-decor {
+    width: 160px;
+    position: relative;
+    &__normal {
+      width: 100%;
+      border: 2px solid $main-color;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 0;
+    }
+    &__bold {
+      margin: 0;
+      width: 20%;
+      border: 4px solid $main-color;
+      position: absolute;
+      top: -2px;
+      left: 40%;
+    }
+  }
+  &__ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    @media screen and (max-width: 540px){
+      padding: 0;
+    }
+    &__li {
+      margin-left: 10px;
+      cursor: pointer;
+      padding: 5px 15px;
+      @media screen and (max-width: 540px){
+        margin-top: 10px;
+      }
+    }
+    &__li:hover {
+      background: $main-color;
+      border-radius: 20px;
+      color: white;
+    }
+  }
+  &__content {
+    margin-top: 20px;
+    img {
+      width: auto;
+      height: 280px;
+      @media screen and(max-width: 540px){
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .active {
+    background: $main-color;
+      border-radius: 20px;
+      color: white;
+  }
+}
