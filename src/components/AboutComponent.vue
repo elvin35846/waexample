@@ -1,9 +1,6 @@
 <template>
   <div class="about-block" id="about">
     <h1 class="about-block__title">About</h1>
-    <span class="material-icons">
-computer
-</span>
     <p class="about-block__p1">Why Choose Me?</p>
     <div class="about-block__line-decor">
       <hr class="about-block__line-decor__normal">

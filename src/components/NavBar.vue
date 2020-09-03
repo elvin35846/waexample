@@ -19,8 +19,8 @@ export default {
       navData: [
         { title: 'Home', url: '/' },
         { title: 'About Us', url: '#about' },
-        { title: 'Services', url: '/' },
-        { title: 'Resume', url: '/' },
+        { title: 'Services', url: '#services' },
+        { title: 'Resume', url: '#resume' },
         { title: 'Portfolio', url: '/' },
         { title: 'Pricing', url: '/' }
       ]
