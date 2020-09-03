@@ -2,17 +2,11 @@
   <div class="home-block">
     <NavBar />
     <HeaderComponent />
-    <hr>
     <AboutComponent />
-    <hr>
     <ServicesComponent />
-    <hr>
-    <ResumeComponent />
-    <hr>
+    <!-- <ResumeComponent /> -->
     <PortfolioComponent />
-    <hr>
     <PricingComponent />
-    <hr>
     <ContactComponent />
   </div>
 </template>
@@ -21,7 +15,7 @@
 import HeaderComponent from './components/HeaderComponent'
 import AboutComponent from './components/AboutComponent'
 import ServicesComponent from './components/ServicesComponent'
-import ResumeComponent from './components/ResumeComponent'
+// import ResumeComponent from './components/ResumeComponent'
 import PortfolioComponent from './components/PortfolioComponent'
 import PricingComponent from './components/PricingComponent'
 import ContactComponent from './components/ContactComponent'
@@ -31,7 +25,7 @@ export default {
     HeaderComponent,
     AboutComponent,
     ServicesComponent,
-    ResumeComponent,
+    // ResumeComponent,
     PortfolioComponent,
     PricingComponent,
     ContactComponent,
